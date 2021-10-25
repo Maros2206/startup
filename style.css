@@ -1,0 +1,262 @@
+
+/* div{ */
+    /* text-align: center;
+    display: block;
+    margin: 11px auto;
+}
+h1{
+    text-align: center;
+} */
+.menu{
+    text-align: center;
+    padding: 10px 0;
+}
+.menu-link{
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: grey;    
+}
+.menu-link:hover{
+    background: blue;
+}
+.baner{
+    width: 800px;
+    padding: 200px 0;
+    margin: 0 auto;
+    background: url(img/polygons.png);
+    text-align: center;
+    color: white;
+}
+button{
+    border-radius: 10px;
+    padding: 15px 40px;
+    border: none;
+}
+button:hover{
+    background: rgb(197, 191, 191);
+}
+h2{
+    text-align: center;
+}
+.logo{
+    width:1000px;
+    margin:0 auto;
+}
+.card{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 0 2px 5px grey;
+    padding: 15px;
+    margin: 0 5px;
+}
+.enter{
+    color: white;
+    border-radius: 10px;
+    background: blue;
+    width: 100%;
+}
+.img-logo{
+    float: left;
+    width: 300px;
+}
+.photo{
+    width: 100%;
+}
+.fonction{
+    color: grey;
+}
+.team{
+    max-width: 1200px;
+    margin:0 auto;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.header-wrapper{
+    display: inline-block;
+    border: 1px solid #000;
+    background: white;
+    color: black;
+    margin: 0 5px;
+    width: 30%;
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+p{
+    text-align: center;
+}
+.tarif{
+    background: grey;
+    color: white;
+    max-width: 1200px;
+}
+.garde-wrapper{
+    text-align: center;
+}
+.heading-card{
+    background:black;
+    color: white;
+    padding: 32px;
+}
+.heading-card-pro{
+    background:#055b73;
+    color: white;
+    padding: 50px;
+}
+h3{
+    margin: 0px;
+    font-size: 24px;
+}
+li{
+    padding: 15px;
+    border-bottom: 1px solid rgb(204, 197, 197);
+}
+span{
+    font-weight: 600;
+}
+.price{
+    font-size: 24px;
+    border: none;
+}
+.day{
+    color: grey;
+    border-bottom: none;
+}
+.bring{
+    background: black;
+    color: white;
+}
+.bring:hover{
+    background: white;
+    color: black;
+}
+.contact{
+    background: #e3e3e3;
+    padding: 40px;
+}
+.information{
+    text-align: left;
+}
+.information span{
+    padding-left: 20px;
+    vertical-align: middle;
+}
+.information img{
+    vertical-align: middle;
+}
+.phone{
+    background: url(img/phone.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: contain;
+}
+.mail{
+    background: url(img/mail.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: contain;
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.click{
+    color: white;
+    background: black;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.click:hover{
+    background: white;
+    color: black;
+}
+.down{
+    background: black;
+    color: white;
+}
+.down p{
+    text-align: left;
+    padding-left: 20px;
+    border-color: white;
+    margin: 0 auto;
+}
+@media(max-width:992px){
+    h1{
+        color: red;
+         }
+     .menu-link{
+         display: block;
+      }
+           .baner{
+               width: 100%;
+               padding: 200px 0;
+           }
+           .logo{
+               width: 100%;
+               text-align: center;
+           }
+           .img-logo{
+               float: none;
+           }
+           .card{
+               display: block;
+               width: 100%;
+               box-sizing: border-box;
+               margin-bottom: 20px;
+           }
+           .team{
+               width: 100%;
+           }
+           .tarif{
+               width: 100%;
+           }
+           .header-wrapper{
+               display: block;
+               width: 100%;
+               box-sizing: border-box;
+       margin: 0 auto;
+       margin-bottom:20px;
+    }
+}
+@media(max-width:575px){
+    .menu-link{
+     display: block;
+    }
+    .baner{
+        width: 100%;
+        padding: 200px 0;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .img-logo{
+        float: none;
+    }
+    .card{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    .team{
+        width: 100%;
+    }
+    .tarif{
+        width: 100%;
+    }
+    .header-wrapper{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
